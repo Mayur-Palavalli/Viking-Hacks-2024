@@ -3,4 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ihsblue">#013988</color>
+<<<<<<< HEAD
+=======
+    <color name="offwhite">#dfdddd</color>
+>>>>>>> 4e84987 (Main Club Page)
 </resources>
