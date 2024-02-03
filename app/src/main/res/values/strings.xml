@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">ClubsApp2</string>
+=======
+    <string name="app_name">schooltime</string>
+>>>>>>> 4e84987 (Main Club Page)
 </resources>
