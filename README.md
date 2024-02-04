@@ -1,0 +1,3 @@
+# Viking-Hacks-2024
+
+We have created an app that focuses all the information about all the clubs at Irvington in one place. Currently, for students to learn about new clubs and sign up for events, they would have to go to Facebook, Instagram, or Five-Star Students. This is a lot for new students and can make it harder to sign up for events or attend meetings. With our app, all the information for each club on campus is located in their club page. Club officers can login to the club page and update their club's site to reflect their current events. Students can go to the student page and see a list of all the clubs/events. There, they can sign up for events and learn more about the club.
