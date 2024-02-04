@@ -12,6 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+//import com.example.school.R;
+
 public class login extends AppCompatActivity {
 
     @Override
@@ -33,6 +35,9 @@ public class login extends AppCompatActivity {
         clubids.put(7, "Model UN");
         clubids.put(8, "Comp Sci");
 
+
+        View backbutton = findViewById(R.id.backlogin);
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,8 +45,8 @@ public class login extends AppCompatActivity {
                 try {
                     if (clubids.containsKey(Integer.parseInt(clubid.getText().toString()))) {
                         String club = clubids.get(Integer.parseInt(clubid.getText().toString()));
-                        if (club == "Deca") {
-                            startActivity(new Intent(login.this, ClubPage.class));
+                        if (club.equalsIgnoreCase("DECA")) {
+                            startActivity(new Intent(login.this, unfinished.class));
                         }
                     } else {
                         invalid.setText("Invalid ID");
@@ -53,7 +58,7 @@ public class login extends AppCompatActivity {
             }
         });
 
-        View backbutton = findViewById(R.id.backlogin);
+
 
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override

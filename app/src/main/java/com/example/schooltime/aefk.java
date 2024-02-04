@@ -4,9 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class studentacc extends AppCompatActivity {
+//import com.example.school.R;
+
+public class aefk extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +21,7 @@ public class studentacc extends AppCompatActivity {
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(studentacc.this, MainActivity.class);
+                Intent intent = new Intent(aefk.this, MainActivity.class);
                 startActivity(intent);
             }
         });

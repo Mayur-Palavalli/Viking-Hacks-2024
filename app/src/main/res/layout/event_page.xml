@@ -81,7 +81,7 @@
             android:text="- these are the event details and it is just filling up lots of space" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/register"
             android:layout_width="300dp"
             android:layout_height="75dp"
             android:layout_gravity="center_vertical|center_horizontal"

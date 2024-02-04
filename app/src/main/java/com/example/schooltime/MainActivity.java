@@ -5,17 +5,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
+
+//import com.example.school.R;
 
 public class MainActivity extends AppCompatActivity {
+    View studentacc;
+    View clubacc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        View studentacc = findViewById(R.id.studentacc);
-        View clubacc = findViewById(R.id.clubacc);
+        studentacc = findViewById(R.id.studentacc);
+        clubacc = findViewById(R.id.clubacc);
 
 //        button.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -27,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         studentacc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, studentacc.class);
+                Intent intent = new Intent(MainActivity.this, Club_Page.class);
                 startActivity(intent);
             }
         });

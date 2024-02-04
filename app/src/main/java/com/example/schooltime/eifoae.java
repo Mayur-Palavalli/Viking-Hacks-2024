@@ -6,7 +6,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class clubacc extends AppCompatActivity {
+//import com.example.school.R;
+
+public class eifoae extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +20,7 @@ public class clubacc extends AppCompatActivity {
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(clubacc.this, MainActivity.class);
+                Intent intent = new Intent(eifoae.this, MainActivity.class);
                 startActivity(intent);
             }
         });
