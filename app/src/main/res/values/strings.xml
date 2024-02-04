@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">schooltime</string>
+    <string name="deca">DECA</string>
+    <string name="debate">Debate</string>
+    <string name="indopak">Indopak</string>
+    <string name="fbla">FBLA</string>
+    <string name="math">Math</string>
+    <string name="chess">Chess</string>
+    <string name="model_un">Model UN</string>
+    <string name="comp_sci">Comp Sci</string>
+    <string name="ihs_clubs">IHS Clubs</string>
+    <string name="club_page">Club Page</string>
+    <string name="student_page">Student Page</string>
+</resources>
