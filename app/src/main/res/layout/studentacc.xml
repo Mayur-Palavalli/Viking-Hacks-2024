@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/footer"
+        android:id="@+id/banner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/ihsblue"
@@ -27,10 +27,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/footer"
+        app:layout_constraintTop_toTopOf="@+id/banner"
         app:layout_constraintVertical_bias="0.41000003"
         app:shapeAppearanceOverlay="@style/circleImageView"
-        app:strokeColor="@color/white" />
+        app:strokeColor="@color/white"/>
 
     <!--    <ImageView-->
 <!--        android:id="@+id/imageView"-->

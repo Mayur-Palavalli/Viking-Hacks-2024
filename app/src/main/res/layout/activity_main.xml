@@ -6,73 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<<<<<<< HEAD
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-=======
-    <com.google.android.material.appbar.MaterialToolbar
-        android:id="@+id/bg"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
->>>>>>> 4e84987 (Main Club Page)
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-<<<<<<< HEAD
-=======
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/footer"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:background="@color/ihsblue"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/clubacc"
-        android:layout_width="200sp"
-        android:layout_height="70sp"
-        android:layout_marginTop="476dp"
-        android:backgroundTint="@color/ihsblue"
-        android:fontFamily="@font/advent_pro"
-        android:text="Club Page"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/studentacc"
-        android:layout_width="200sp"
-        android:layout_height="70sp"
-        android:layout_marginTop="340dp"
-        android:backgroundTint="@color/ihsblue"
-        android:fontFamily="@font/advent_pro"
-        android:text="Student Page"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/banner"
         android:layout_width="0dp"
-        android:layout_height="100sp"
+        android:layout_height="100dp"
         android:layout_marginTop="20dp"
-        android:background="?attr/colorPrimary"
-        android:backgroundTint="@color/ihsblue"
+        android:background="@color/ihsblue"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,69 +36,72 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/advent_pro"
         android:text="IHS Clubs"
-        android:textColor="@color/white"
+        android:textColor="#FFFFFF"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="@+id/banner"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/banner" />
 
-<!--    <com.google.android.material.imageview.ShapeableImageView-->
-<!--        android:layout_width="100sp"-->
-<!--        android:layout_height="100sp"-->
-<!--        android:layout_margin="10dp"-->
-<!--        android:padding="0dp"-->
-<!--        android:background="@color/white"-->
-<!--        app:layout_constraintBottom_toBottomOf="@+id/bg"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.51"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="@+id/footer"-->
-<!--        app:layout_constraintVertical_bias="0.5"-->
-<!--        app:shapeAppearanceOverlay="@style/circleImageView"-->
-<!--        app:strokeColor="@color/white" />-->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/ihsclubs"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/footer"
+        app:layout_constraintVertical_bias="1.0"
+        app:shapeAppearanceOverlay="@style/circleImageView"
+        app:strokeColor="@color/white" />
 
     <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/ihsclubs"
         android:layout_width="40sp"
         android:layout_height="40sp"
         android:layout_margin="10dp"
         android:padding="0dp"
-        android:background="@color/white"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/footer"
-        app:layout_constraintVertical_bias="0.41000003"
-        app:shapeAppearanceOverlay="@style/circleImageView"
-        app:strokeColor="@color/white" />
-
-    <com.google.android.material.imageview.ShapeableImageView
-        android:layout_width="30sp"
-        android:layout_height="30sp"
-        android:layout_margin="10dp"
-        android:padding="0dp"
         android:src="@mipmap/ihslogo"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/footer"
-        app:layout_constraintVertical_bias="0.45000003"
         app:shapeAppearanceOverlay="@style/circleImageView"
         app:strokeColor="@color/white" />
 
+    <Button
+        android:id="@+id/studentacc"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/ihsblue"
+        android:fontFamily="@font/advent_pro"
+        android:text="Student Page"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
 
-    <!--    <ImageView-->
-<!--        android:id="@+id/imageView2"-->
-<!--        android:layout_width="40dp"-->
-<!--        android:layout_height="40dp"-->
-<!--        android:background="#FFFFFF"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="@+id/footer"-->
-<!--        app:srcCompat="@drawable/ihsvikings" />-->
+    <Button
+        android:id="@+id/clubacc"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/ihsblue"
+        android:fontFamily="@font/advent_pro"
+        android:text="Club Page"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
 
->>>>>>> 4e84987 (Main Club Page)
 </androidx.constraintlayout.widget.ConstraintLayout>
