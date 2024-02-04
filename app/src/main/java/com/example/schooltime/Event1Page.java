@@ -1,8 +1,10 @@
-package com.example.clubsapp2;
+package com.example.schooltime;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.schooltime.R;
 
 public class Event1Page extends AppCompatActivity {
 

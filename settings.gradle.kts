@@ -13,10 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-<<<<<<< HEAD
 rootProject.name = "ClubsApp2"
-=======
-rootProject.name = "schooltime"
->>>>>>> 4e84987 (Main Club Page)
 include(":app")
  

@@ -1,4 +1,4 @@
-package com.example.clubsapp2;
+package com.example.schooltime;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +18,7 @@ public class ClubPage extends AppCompatActivity {
         event1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(ClubPage.this, com.example.clubsapp2.Event1Page.class));
+                startActivity(new Intent(ClubPage.this, Event1Page.class));
             }
         });
     }
